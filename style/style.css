@@ -1,0 +1,476 @@
+body {
+  font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background: #F0EFE2 url(/images/background.gif)repeat;
+  background-size: cover;
+  color: #000;
+}
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+img {
+  border: 0;
+}
+
+a, a:hover {
+  outline: none;
+  text-decoration: underline;
+  color: #000;
+}
+
+.left {
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+.right {
+  float: right;
+  width: auto;
+  margin-left: 10px;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+}
+
+
+#main,
+#logo,
+#menubar,
+#site_content,
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background: transparent;
+  height: 202px;
+}
+
+#logo {
+  width: 898px;
+  position: relative;
+  height: 148px;
+  border-bottom: 2px solid #FFF;
+  background-color: black;
+}
+
+#logo #logo_text {
+  position: left;
+  top: 20px;
+  left: 15px;
+}
+
+#logo h1,
+#logo h2 {
+  font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;
+}
+
+#logo_text h1,
+#logo_text h1 a,
+#logo_text h1 a:hover {
+  padding: 22px 0 0 0;
+  color: white;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour {
+  color: white;
+}
+
+#logo_text h2 {
+  font-size: 100%;
+  padding: 4px 0 0 0;
+  color: white;
+}
+
+#menubar {
+  width: 898px;
+  height: 52px;
+  padding: 0;
+  background: #000;
+}
+
+/* menu button */
+
+ul#menu,
+ul#menu li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+ul#menu li {
+  list-style: none;
+}
+
+ul#menu li a {
+  letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  display: block;
+  float: left;
+  height: 17px;
+  margin: 10px 0 0 10px;
+  padding: 9px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+}
+
+ul#menu li a:hover,
+ul#menu li.selected a,
+ul#menu li.selected a:hover {
+  color: #FFF;
+  background: transparent url(/images/transparent_light.png) repeat;
+}
+
+
+/* site content */
+
+#site_content {
+  width: 854px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0 24px 20px 20px;
+  background: #FFF;
+}
+
+.sidebar {
+  float: right;
+  width: 210px;
+  padding: 0 15px 20px 15px;
+}
+
+.sidebar ul {
+  width: 198px;
+  padding: 4px 0 0 0;
+  margin: 4px 0 30px 0;
+}
+
+.sidebar li {
+  list-style: none;
+  padding: 0 0 7px 0;
+}
+
+.sidebar li a,
+.sidebar li a:hover {
+  padding: 0 0 0 40px;
+  display: block;
+  background: transparent url(/images/link.png) no-repeat left center;
+}
+
+.sidebar li a.selected {
+  color: #7E2451;
+  text-decoration: none;
+}
+
+#content {
+  text-align: left;
+  float: left;
+  width: 595px;
+  padding: 0;
+}
+
+/* Footer */
+
+#footer {
+  width: 898px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center;
+  background: black;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+
+/* Search Side Bar */
+
+.search {
+  color: #5D5D5D;
+  border: 1px solid #BBB;
+  width: 134px;
+  padding: 4px;
+  font: 100% arial, sans-serif;
+}
+
+#colours {
+  height: 0px;
+  text-align: right;
+  padding: 66px 16px 0px 300px;
+}
+
+/* Contact Us Form */
+
+.form_settings {
+  margin: 15px 0 0 0;
+}
+
+.form_settings p {
+  padding: 0 0 4px 0;
+}
+
+.form_settings span {
+  float: left;
+  width: 200px;
+  text-align: left;
+}
+
+.form_settings input,
+.form_settings textarea {
+  padding: 5px;
+  width: 299px;
+  font: 100% arial;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+  color: #47433F;
+}
+
+.form_settings .button {
+  font: 100% arial;
+  border: 1px solid;
+  width: 99px;
+  height: 33px;
+  gap: 10px;
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+}
+
+.form_settings .buttonReset {
+  font: 100% arial;
+  border: 1px solid;
+  width: 99px;
+  height: 33px;
+  gap: 10px;
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+  margin-left: 25px;
+}
+
+.button_group {
+  padding-top: 25px;
+  padding-left: 245px;
+
+}
+
+.form_settings textarea,
+.form_settings select {
+  font: 100% arial;
+  width: 299px;
+}
+
+.form_settings select {
+  width: 310px;
+}
+
+.form_settings .checkbox {
+  margin: 4px 0;
+  padding: 0;
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+.separator {
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;
+}
+
+/* Table in sport */
+
+table {
+  margin: 10px 0 30px 0;
+}
+
+table tr th,
+table tr td {
+  background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;
+}
+
+table tr td {
+  background: #F0EFE2;
+  color: #47433F;
+  border-top: 1px solid #FFF;
+}
+
+/* Photo Gallery - Sport & Food */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: 510px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 35%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Border Surround The HTML Keep Changing Color */
+
+.rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 15px solid rgb(255, 255, 255);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@keyframes changeBorderColor {
+  0% {
+    border-color: rgb(255, 0, 242);
+  }
+
+  10% {
+    border-color: green;
+  }
+
+  20% {
+    border-color: red;
+  }
+
+  30% {
+    border-color: yellow;
+  }
+
+  40% {
+    border-color: rgb(179, 0, 255);
+  }
+
+  50% {
+    border-color: pink;
+  }
+
+  100% {
+    border-color: blue;
+  }
+}
+
+.rectangle {
+  animation: changeBorderColor 3s infinite;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Home Pages Tables Invisible Color */
+
+.glasses {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.glasses_tr {
+  background-color: white;
+}
+
+.glasses th {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  color: black;
+}
+
+.glasses img {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.glasses a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.glasses a:hover {
+  text-decoration: underline;
+}
+
+/* Home Pages Images */
+
+.imagesContainer {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: -5%;
+}
+
+.imagesContainer:hover .image {
+  opacity: 0.3;
+}
+
+.imagesContainer:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #444461dc;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
